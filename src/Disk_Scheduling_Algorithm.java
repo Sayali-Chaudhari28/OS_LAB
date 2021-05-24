@@ -1,3 +1,15 @@
+/*******************************************************************************************************
+ 											Assignment 3
+ Title: Write a program to implement following disk scheduling algorithms: First Come First Serve (FCFS), Shortest Seek Time First (SSTF)
+ .......................................................................................................
+ 
+ Name	: Sayali Narendra Chaudhari
+ roll no: 2377
+ c no.	: C22020222303
+ Div 	: A
+ Batch 	: A3
+********************************************************************************************************/
+
 import java.util.Scanner;
 class Disk_Scheduling{
 	Scanner sc = new Scanner(System.in);
@@ -142,3 +154,72 @@ public class Disk_Scheduling_Algorithm {
 	}
 
 }
+
+/*----------------------------------------------OUTPUT---------------------------------------------------
+ 
+Enter maximum number of cylinders: 200
+
+Enter total number of cylinders to be accessed: 5
+
+Enter the Sequence of Cylinders: 23 89 132 42 187
+
+Enter the location of head: 100
+
+Sequence is: 23 89 132 42 187 
+Starting location is: 100
+
+<<>>><<>><<>>><<>><<>>><<>><<>>><<>><<>>><<>><<>>><<>><<>>><<>><<>>><<
+
+			DISK SCHEDULING
+
+1. First Come, First Serve 
+2. Shortest-Seek-Time-First(SSTF)
+3. Exit
+Enter your choice: 1
+-----------------------------------------------------------------------
+
+Distance calculation: 
+23 - 100 = 77
+89 - 23 = 66
+132 - 89 = 43
+42 - 132 = 90
+187 - 42 = 145
+
+Total distance travelled by head: 421
+
+<<>>><<>><<>>><<>><<>>><<>><<>>><<>><<>>><<>><<>>><<>><<>>><<>><<>>><<
+
+			DISK SCHEDULING
+
+1. First Come, First Serve 
+2. Shortest-Seek-Time-First(SSTF)
+3. Exit
+Enter your choice: 2
+-----------------------------------------------------------------------
+	 Distance Travelled		| Distance calculation 
+-----------------------------------------------------------------------
+Minimum distance is 11 for disk 89	|   |89-100 | = 11
+Minimum distance is 43 for disk 132	|   |132-89 | = 43
+Minimum distance is 55 for disk 187	|   |187-132 | = 55
+Minimum distance is 145 for disk 42	|   |42-187 | = 145
+Minimum distance is 19 for disk 23	|   |23-42 | = 19
+-----------------------------------------------------------------------
+
+Total distance travelled by head is: 273
+Seek Sequence is: 100 
+89 
+132 
+187 
+42 
+
+<<>>><<>><<>>><<>><<>>><<>><<>>><<>><<>>><<>><<>>><<>><<>>><<>><<>>><<
+
+			DISK SCHEDULING
+
+1. First Come, First Serve 
+2. Shortest-Seek-Time-First(SSTF)
+3. Exit
+Enter your choice: 3
+-----------------------------------------------------------------------
+
+ ------------------------------------------------------------------------------------------------------*/ 
