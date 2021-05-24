@@ -46,7 +46,7 @@ class Disk_Scheduling{
 		return head_position;
 	}
 	
-	//-----------------------------FIRST IN FIRST OUT
+	//-----------------------------FIRST COME FIRST SERVE---------------------------------
 	void FCFS(int head) {
 		seek_count = 0;
 		System.out.print("\nDistance calculation: ");
@@ -123,7 +123,7 @@ class Disk_Scheduling{
          
         // print the sequence
         for (int i = 0; i < number_of_cylinders; i++)
-            System.out.println(seek_sequence[i]+" ");
+            System.out.print(seek_sequence[i]+" ");
 	}
 }
 public class Disk_Scheduling_Algorithm {
@@ -206,11 +206,7 @@ Minimum distance is 19 for disk 23	|   |23-42 | = 19
 -----------------------------------------------------------------------
 
 Total distance travelled by head is: 273
-Seek Sequence is: 100 
-89 
-132 
-187 
-42 
+Seek Sequence is: 100 89 132 187 42 
 
 <<>>><<>><<>>><<>><<>>><<>><<>>><<>><<>>><<>><<>>><<>><<>>><<>><<>>><<
 
