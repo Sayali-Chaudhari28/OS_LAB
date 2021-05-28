@@ -126,3 +126,117 @@ public class Memory_Allocation_Strategies {
 		}while(choice!=5);
 	}
 }
+
+
+/*************************************************OUTPUT*********************************************
+ 
+---------------------------------------------------
+
+		MEMORY MANAGEMENT STRATEGIES
+
+1. First Fit 
+2. Best Fit 
+3. Worst Fit 
+4. Exit 
+Choose Strategy: 1
+
+___________________________________________________
+
+Enter number of processes: 4
+Enter size of each process
+Size for P0 block: 212
+Size for P1 block: 417
+Size for P2 block: 112
+Size for P3 block: 426
+
+---------------------------------------------------
+
+Enter number of holes: 5
+Enter size of each hole
+Size for hole 0: 100
+Size for hole 1: 500
+Size for hole 2: 200
+Size for hole 3: 300
+Size for hole 4: 600
+Process 0 of size 212KB is allocates to memory block 1 of size 212KB
+Process 1 of size 417KB is allocates to memory block 4 of size 417KB
+Process 2 of size 112KB is allocates to memory block 1 of size 112KB
+
+---------------------------------------------------
+
+		MEMORY MANAGEMENT STRATEGIES
+
+1. First Fit 
+2. Best Fit 
+3. Worst Fit 
+4. Exit 
+Choose Strategy: 2
+
+___________________________________________________
+
+Enter number of processes: 4
+Enter size of each process
+Size for P0 block: 212
+Size for P1 block: 417
+Size for P2 block: 112
+Size for P3 block: 426
+
+---------------------------------------------------
+
+Enter number of holes: 5
+Enter size of each hole
+Size for hole 0: 100
+Size for hole 1: 500
+Size for hole 2: 200
+Size for hole 3: 300
+Size for hole 4: 600
+Process 0 of size 212KB is allocates to memory block 2 of size 212KB
+Process 1 of size 417KB is allocates to memory block 3 of size 417KB
+Process 2 of size 112KB is allocates to memory block 1 of size 112KB
+Process 3 of size 426KB is allocates to memory block 4 of size 426KB
+
+---------------------------------------------------
+
+		MEMORY MANAGEMENT STRATEGIES
+
+1. First Fit 
+2. Best Fit 
+3. Worst Fit 
+4. Exit 
+Choose Strategy: 3
+
+___________________________________________________
+
+Enter number of processes: 4
+Enter size of each process
+Size for P0 block: 212
+Size for P1 block: 417
+Size for P2 block: 112
+Size for P3 block: 426
+
+---------------------------------------------------
+
+Enter number of holes: 5
+Enter size of each hole
+Size for hole 0: 100
+Size for hole 1: 500
+Size for hole 2: 200
+Size for hole 3: 300
+Size for hole 4: 600
+Process 0 of size 212KB is allocates to memory block 0 of size 212KB
+Process 1 of size 417KB is allocates to memory block 1 of size 417KB
+Process 2 of size 112KB is allocates to memory block 0 of size 112KB
+
+---------------------------------------------------
+
+		MEMORY MANAGEMENT STRATEGIES
+
+1. First Fit 
+2. Best Fit 
+3. Worst Fit 
+4. Exit 
+Choose Strategy: 4
+EXECUTION COMPLETED...
+
+ */
+*****************************************************************************************************/
